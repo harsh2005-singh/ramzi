@@ -1,118 +1,94 @@
 # Ramzi Interior
 
-> **Client Project · Proclivity Digitech Pvt. Ltd. · Auckland, New Zealand**
+> A custom, fully responsive and dynamic WordPress website for an Auckland-based interior finishing and painting company.
 
-A custom, fully responsive and dynamic WordPress website developed for **Ramzi Interior**, an Auckland-based interior finishing and painting company, as part of my internship at **Proclivity Digitech Pvt. Ltd.**
+![WordPress](https://img.shields.io/badge/WordPress-Custom_Theme-21759B?logo=wordpress&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Live-success)
 
-## 🌐 Live Demo
+**Client:** Ramzi Interior · **Agency:** Proclivity Digitech Pvt. Ltd. · **Location:** Auckland, New Zealand
 
-**https://proclivitydemo.co.in/demoh/ramzi/**
+## 🌐 Live Site
+
+| Environment | URL |
+| --- | --- |
+| **Production** | [ramziinterior.co.nz](https://ramziinterior.co.nz/) |
+| Demo / staging | [proclivitydemo.co.in/demoh/ramzi](https://proclivitydemo.co.in/demoh/ramzi/) |
 
 ---
 
-## 📌 Project Overview
+## 📑 Table of Contents
 
-**Ramzi Interior** is a client website project focused on presenting professional interior finishing, painting, plastering and renovation services through a modern, responsive and user-friendly web experience.
+- [Overview](#-overview)
+- [My Contribution](#-my-contribution)
+- [Key Features](#-key-features)
+- [Tech Stack](#️-tech-stack)
+- [Theme Structure](#-theme-structure)
+- [Dynamic Content](#-dynamic-content)
+- [Responsive Design](#-responsive-design)
+- [Getting Started](#-getting-started)
+- [Development Journey](#-development-journey)
+- [Learning Outcomes](#-learning-outcomes)
+- [Project Note](#️-project-note)
 
-I worked on this project during the **first month of my internship at Proclivity Digitech Pvt. Ltd.**, taking the website from an initial front-end design to a complete responsive and dynamic WordPress implementation.
+---
 
-The project involved both **front-end development** and **WordPress theme development**, with a strong focus on responsive layouts, reusable components, dynamic content and smooth user interactions.
+## 📌 Overview
+
+**Ramzi Interior** is a client website that presents professional interior finishing, painting, plastering and renovation services through a modern, fast and user-friendly experience.
+
+I built it during the **first month of my internship at Proclivity Digitech Pvt. Ltd.**, taking it from an initial front-end design to a complete responsive, dynamic WordPress implementation. The work combined **front-end development** and **custom WordPress theme development**, with a focus on responsive layouts, reusable components, editable content and smooth interactions.
 
 ---
 
 ## 👨‍💻 My Contribution
 
-### 1. Initial HTML, CSS & JavaScript Design
+**1. Front-end design**
+Built the initial site with HTML5, CSS3, JavaScript and Bootstrap: page structure, styling and interactive UI components.
 
-I first developed the website as a basic front-end design using:
+**2. Responsive development**
+Made the layout work across desktop, laptop, tablet and mobile, covering navigation, service sections, cards, galleries, forms, typography and spacing.
 
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- Responsive layout techniques
-- Interactive UI components
-- Initial page structure and styling
+**3. WordPress development**
+Converted the static front end into a dynamic WordPress site:
 
-### 2. Responsive Development
-
-After establishing the initial design, I worked on making the website fully responsive across:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile devices
-
-The responsive implementation included navigation, service sections, cards, galleries, forms, typography, spacing and interactive elements.
-
-### 3. WordPress Development
-
-The static front-end was then developed into a **dynamic WordPress website**.
-
-The implementation included:
-
-- Custom WordPress theme development
-- Dynamic page content
-- Custom service management
-- Dynamic service pages
-- WordPress blog integration
-- Dynamic navigation
-- Dynamic service ordering
+- Custom theme with reusable PHP templates
+- Custom service management and dynamic service pages
+- Dynamic navigation and service ordering
 - Responsive service sliders
-- Dynamic FAQ management
+- ACF-powered FAQ management
+- Blog integration
 - Contact form integration
-- Reusable PHP templates
-- WordPress permalinks and content management
+- Permalink and content management setup
 
 ---
 
 ## ✨ Key Features
 
-- Custom WordPress theme
-- Fully responsive design
-- Dynamic Services section
-- Individual service detail pages
-- Dynamic service ordering
-- Service dropdown navigation
-- Dynamic WordPress blog integration
-- Before/after image slider gallery
-- ACF-powered service FAQs
+- Custom WordPress theme, fully responsive
+- Dynamic Services section with individual detail pages
+- Service dropdown navigation and configurable service ordering
+- Dynamic blog powered by WordPress posts
+- Before/after image comparison slider
+- ACF-powered service FAQs with accordion
 - Contact Form 7 integration
 - Responsive mobile navigation
-- GSAP animations
-- ScrollTrigger animations
-- Bootstrap-based components
-- Interactive sliders and UI elements
-- Dynamic content management through WordPress
+- GSAP and ScrollTrigger scroll animations
+- Services and blog carousels
+- Fully editable through the WordPress dashboard
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-
-### WordPress
-
-- WordPress
-- PHP
-- Custom WordPress Theme Development
-- Custom Post Types
-- WordPress Queries
-- WordPress Template Hierarchy
-- WordPress Navigation Menus
-
-### Plugins & Libraries
-
-- Advanced Custom Fields (ACF)
-- Contact Form 7
-- GSAP
-- ScrollTrigger
-- Bootstrap
+| Layer | Technologies |
+| --- | --- |
+| **Frontend** | HTML5, CSS3, JavaScript, Bootstrap |
+| **Backend / CMS** | WordPress, PHP, Custom Post Types, WP_Query, Template Hierarchy, Navigation Menus |
+| **Plugins** | Advanced Custom Fields (ACF), Contact Form 7 |
+| **Animation** | GSAP, ScrollTrigger |
 
 ---
 
@@ -120,32 +96,30 @@ The implementation included:
 
 ```text
 ramzi/
-├── assets/
+├── assets/              # CSS, JS, images and fonts
 ├── about.php
 ├── blog.php
 ├── contact.php
 ├── footer.php
-├── front-page.php
-├── functions.php
+├── front-page.php       # Home page
+├── functions.php        # Theme setup, CPTs, enqueues
 ├── header.php
 ├── index.php
 ├── projects.php
 ├── services.php
-├── single-blog.php
-├── single-service.php
-├── style.css
+├── single-blog.php      # Single blog post
+├── single-service.php   # Single service detail
+├── style.css            # Theme metadata and base styles
 └── testimonials.php
 ```
 
 ---
 
-## 🧩 Dynamic WordPress Features
+## 🧩 Dynamic Content
 
 ### Services
 
-Services are managed dynamically through WordPress rather than being hardcoded into individual pages.
-
-The project supports service content such as:
+Services are managed through WordPress instead of being hardcoded. Current services include:
 
 - Venetian Plastering
 - Renovations
@@ -154,80 +128,53 @@ The project supports service content such as:
 - Exterior Painting
 - Interior Painting
 
-Additional services can be added through the WordPress dashboard.
+New services can be added from the dashboard and appear automatically in the listing, navigation dropdown and detail pages.
 
 ### Service FAQs
 
-Service-specific FAQs are managed using **Advanced Custom Fields (ACF)**, allowing administrators to add or update questions and answers without modifying the theme code.
+Each service has its own FAQs managed with **ACF repeater fields**, so admins can add or edit questions and answers without touching code.
 
 ### Blog
 
-The website uses WordPress posts for dynamic blog content, allowing new articles to be added and displayed through the WordPress dashboard.
-
----
-
-## 🎨 Front-End Highlights
-
-The website includes several interactive and visual components designed to improve the overall user experience:
-
-- Responsive navigation
-- Services carousel
-- Blog carousel
-- Before/after comparison sliders
-- Animated sections
-- Responsive cards
-- Service detail layouts
-- FAQ accordion
-- Mobile-friendly menus
-- Interactive buttons and hover states
-- Smooth scroll-based animations
+Blog content uses native WordPress posts, so new articles are published and displayed straight from the dashboard.
 
 ---
 
 ## 📱 Responsive Design
 
-A major part of the development process was ensuring that the website maintained a consistent and usable experience across different screen sizes.
+The layout adapts from **Desktop → Tablet → Mobile**, with particular attention to:
 
-The layout was adapted for:
-
-**Desktop → Tablet → Mobile**
-
-Special attention was given to:
-
-- Navigation behaviour
-- Typography
-- Section spacing
-- Image sizing
-- Card layouts
-- Sliders
-- Forms
-- Touch interactions
-- Mobile menu behaviour
+- Navigation and mobile menu behaviour
+- Typography and section spacing
+- Image sizing and card layouts
+- Sliders and carousels
+- Forms and touch interactions
 
 ---
 
-## 🏢 Client & Internship Context
+## 🚀 Getting Started
 
-**Client:** Ramzi Interior  
-**Location:** Auckland, New Zealand  
-**Company:** Proclivity Digitech Pvt. Ltd.  
-**Project Type:** Client Website / WordPress Development  
-**Internship Period:** First Month of Internship
+> Requires a WordPress installation (local or hosted) with PHP.
 
-This project was an important part of my early internship experience, where I progressed from building the initial HTML/CSS/JavaScript design to developing a complete **responsive and dynamic WordPress website**.
-
-It gave me practical experience working with a real client project, converting front-end designs into reusable WordPress templates, and implementing dynamic content management.
+1. Copy the `ramzi/` folder into `wp-content/themes/`.
+2. In **Appearance → Themes**, activate **Ramzi**.
+3. Install and activate the required plugins:
+   - Advanced Custom Fields (ACF)
+   - Contact Form 7
+4. Set up the navigation menus under **Appearance → Menus**.
+5. Go to **Settings → Permalinks** and click **Save Changes** to refresh rewrite rules.
+6. Add services, FAQs and blog posts from the dashboard.
 
 ---
 
-## 🚀 Development Journey
+## 🧭 Development Journey
 
 ```text
 Initial Design
       ↓
 HTML / CSS / JavaScript
       ↓
-Responsive Front-End
+Responsive Front End
       ↓
 WordPress Theme Development
       ↓
@@ -244,45 +191,26 @@ Final Client Website
 
 ## 📖 Learning Outcomes
 
-Through this project, I gained practical experience in:
-
-- Building websites from the ground up
-- Converting designs into responsive interfaces
+- Building websites from the ground up and converting designs into responsive interfaces
 - Writing reusable HTML, CSS and JavaScript
-- Developing custom WordPress themes
-- Working with PHP templates
-- Using WordPress Custom Post Types
-- Creating dynamic WordPress queries
-- Working with ACF repeater fields
-- Integrating WordPress plugins
-- Building responsive navigation
-- Creating interactive sliders
-- Implementing animations with GSAP
+- Developing custom WordPress themes with PHP templates
+- Working with Custom Post Types, WordPress queries and ACF repeater fields
+- Integrating plugins such as Contact Form 7
+- Creating sliders, responsive navigation and GSAP animations
 - Debugging responsive layouts
-- Structuring a real-world client project
+- Structuring and delivering a real-world client project
 
 ---
 
 ## ⚠️ Project Note
 
-This repository represents work completed as part of an internship/client project at **Proclivity Digitech Pvt. Ltd.**
-
-The project is maintained here for **portfolio, learning and development reference purposes**. Any proprietary client assets, credentials, production data or confidential information should not be included in the repository.
+This repository contains work completed during an internship/client project at **Proclivity Digitech Pvt. Ltd.** and is kept for **portfolio, learning and reference purposes**. Proprietary client assets, credentials, production data and confidential information are not included.
 
 ---
 
 ## 👤 Developer
 
-Developed during my internship at:
+Developed during my internship at **Proclivity Digitech Pvt. Ltd.**
 
-**Proclivity Digitech Pvt. Ltd.**
-
-### Project
-
-**Ramzi Interior — Auckland, New Zealand**
-
----
-
-## 🔗 Live Demo
-
-**https://proclivitydemo.co.in/demoh/ramzi/**
+**Project:** Ramzi Interior, Auckland, New Zealand
+**Live:** [ramziinterior.co.nz](https://ramziinterior.co.nz/)
